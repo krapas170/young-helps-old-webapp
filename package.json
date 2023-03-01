@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-web-app",
+  "version": "1.0.0",
+  "description": "Node.js web app with Bootslander template",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^2.9.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
