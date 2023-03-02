@@ -1,6 +1,6 @@
 {
   "name": "young-helps-old-webapp",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "A social community app where volunteers can offer their help to people in need",
   "main": "index.js",
   "scripts": {
