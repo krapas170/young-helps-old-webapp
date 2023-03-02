@@ -4,15 +4,18 @@
   "description": "Node.js web app with Bootslander template",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.18.2",
+    "@popperjs/core": "^2.9.3",
     "bootstrap": "^5.2.3",
-    "jquery": "^3.6.3",
-    "@popperjs/core": "^2.9.3"
+    "express": "^4.18.2",
+    "jquery": "^3.6.3"
   },
   "scripts": {
     "start": "node index.js",
     "build": "npm run build:css && npm run build:js",
     "build:css": "node-sass public/stylesheets/main.scss public/stylesheets/main.css",
     "build:js": "browserify public/javascripts/main.js -o public/javascripts/bundle.js"
-  }  
+  },
+  "devDependencies": {
+    "@aws-amplify/cli": "^10.8.1"
+  }
 }
