@@ -7,7 +7,8 @@
     "@popperjs/core": "^2.9.3",
     "bootstrap": "^5.2.3",
     "express": "^4.18.2",
-    "jquery": "^3.6.3"
+    "jquery": "^3.6.3",
+    "node-sass": "^8.0.0"
   },
   "scripts": {
     "start": "node index.js",
