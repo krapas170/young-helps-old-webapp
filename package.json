@@ -10,6 +10,9 @@
     "@popperjs/core": "^2.9.3"
   },
   "scripts": {
-    "start": "node index.js"
-  }
+    "start": "node index.js",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "node-sass public/stylesheets/main.scss public/stylesheets/main.css",
+    "build:js": "browserify public/javascripts/main.js -o public/javascripts/bundle.js"
+  }  
 }
