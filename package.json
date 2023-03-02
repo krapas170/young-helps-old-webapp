@@ -1,15 +1,8 @@
 {
-  "name": "nodejs-web-app",
-  "version": "1.0.0",
-  "description": "Node.js web app with Bootslander template",
+  "name": "young-helps-old-webapp",
+  "version": "0.1",
+  "description": "A social community app where volunteers can offer their help to people in need",
   "main": "index.js",
-  "dependencies": {
-    "@popperjs/core": "^2.9.3",
-    "bootstrap": "^5.2.3",
-    "express": "^4.18.2",
-    "jquery": "^3.6.3",
-    "node-sass": "^8.0.0"
-  },
   "scripts": {
     "start": "node index.js",
     "build": "npm run build:css && npm run build:js",
@@ -18,5 +11,22 @@
   },
   "devDependencies": {
     "@aws-amplify/cli": "^10.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krapas170/young-helps-old-webapp.git"
+  },
+  "author": "Pascal Kray",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/krapas170/young-helps-old-webapp/issues"
+  },
+  "homepage": "https://github.com/krapas170/young-helps-old-webapp#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.3",
+    "express": "^4.18.2",
+    "jquery": "^3.6.3",
+    "node-sass": "^8.0.0"
   }
 }
