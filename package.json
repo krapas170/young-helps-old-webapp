@@ -4,10 +4,7 @@
   "description": "A social community app where volunteers can offer their help to people in need",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "npm run build:css && npm run build:js",
-    "build:css": "node-sass public/stylesheets/main.scss public/stylesheets/main.css",
-    "build:js": "browserify public/javascripts/main.js -o public/javascripts/bundle.js"
+    "start": "node index.js"
   },
   "devDependencies": {
     "@aws-amplify/cli": "^10.8.1"
