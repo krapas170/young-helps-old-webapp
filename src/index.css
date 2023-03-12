@@ -1,13 +1,9 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#main {
+  margin-top: 80px !important; /* setzt den Abstand des main-Tags vom Header */
+  position: relative !important; /* setzt die Position des main-Tags als relativ */
+  z-index: 1 !important; /* hebt den main-Tag über alle anderen Elemente auf */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#hero {
+  padding: 120px 0 0 0 !important;
 }
